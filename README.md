@@ -1,60 +1,106 @@
 # Hey, I'm Vivek Devda 👋
 
-**B.Tech AIML • 3rd Year • Building real AI systems, not just assignments**
+AI/ML engineering student building Python automation pipelines and NLP tools.
 
-I'm an AI/ML engineering student who builds end-to-end systems — from automation pipelines to NLP tools. I use AI to accelerate development and focus on understanding architecture and system design deeply.
+B.Tech AIML • 3rd Year • Interested in building real-world AI systems and understanding system architecture.
+
+I'm an AI/ML student who enjoys building end-to-end systems — from automation pipelines to NLP tools. I like experimenting with AI tools and integrating them into practical workflows that solve real problems.
 
 ---
 
 ## 🚀 Projects
 
-### 🎬 [AI Video Generation Pipeline](https://github.com/vivek-devda/ai-video-generation-pipeline)
-A fully automated end-to-end pipeline that generates videos using AI — no manual intervention.
-- Orchestrated with **n8n** workflow automation
-- **Flask** webhook server handles backend communication
-- Integrates **OpenRouter AI API** for idea + prompt generation
-- **MoviePy** for automated image-to-video conversion
-- Architecture: webhook → AI → image gen → video output
+### 🎬 AI Video Generation Automation Pipeline
 
-> 📹 Demo video included in repo
+A fully automated pipeline that generates short videos using AI with minimal manual work.
 
-### 🤖 [NLP Offline Chatbot](https://github.com/vivek-devda/nlp-offline-chatbot)
-A lightweight chatbot using fuzzy string matching and NLP preprocessing — runs fully offline.
-- Built with **Python**, `fuzzywuzzy`, JSON intent system
-- No API dependencies — works in constrained environments
+Architecture:
+Webhook → AI prompt generation → image generation → video assembly
+
+**Key components**
+
+* Orchestrated using **n8n** workflow automation
+* **Flask webhook server** for backend communication
+* AI APIs used for idea and prompt generation
+* **MoviePy** for automated video creation
+
+📹 Demo video included in the repository.
+
+---
+
+### 🤖 NLP Offline Chatbot
+
+A lightweight chatbot that runs completely offline using simple NLP techniques.
+
+**Key features**
+
+* Built using **Python, fuzzy string matching, and JSON intent system**
+* Text preprocessing and intent matching
+* No external API dependencies
+* Designed to work in constrained environments
 
 ---
 
 ## 🛠️ Tech Stack
 
-```
-Languages      →  Python
-AI/ML          →  NLP, Prompt Engineering, OpenRouter API, HuggingFace (learning)
-Backend        →  Flask, REST APIs, Webhooks
-Automation     →  n8n, ngrok
-Media          →  MoviePy
-Tools          →  GitHub, JSON, pip
-```
+**Languages**
+
+* Python
+
+**AI / ML**
+
+* Natural Language Processing (NLP)
+* Prompt Engineering
+* OpenRouter API
+* HuggingFace (learning)
+
+**Backend**
+
+* Flask
+* REST APIs
+* Webhooks
+
+**Automation**
+
+* n8n
+* ngrok
+
+**Media Processing**
+
+* MoviePy
+
+**Tools**
+
+* Git
+* GitHub
+* JSON
+* pip
 
 ---
 
 ## 📜 Certifications
-- **NPTEL** — Python for Data Science
-- **NPTEL** — Data Analytics with Python
+
+* NPTEL — Python for Data Science
+* NPTEL — Data Analytics with Python
 
 ---
 
 ## 🌍 Open To
-Remote internships in **AI/ML Engineering**, **Automation**, **Backend (Python)**, or **ML Research**
 
-I'm reliable, async-friendly, and I ship things that work.
+Remote internships in:
+
+* AI / ML Engineering
+* Python Backend Development
+* Automation Systems
+* Applied NLP
+
+I enjoy working on real-world engineering problems where code is used in production rather than only academic exercises.
 
 ---
 
 ## 📬 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vivek%20Devda-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/vivek-devda-6a5b8b28b)
-[![GitHub](https://img.shields.io/badge/GitHub-vivek--devda-black?style=flat&logo=github)](https://github.com/vivek-devda)
 
----
+LinkedIn
+GitHub
 
-*Currently looking for remote internship opportunities — feel free to reach out directly.*
+Currently looking for **remote internship opportunities** — feel free to reach out.
