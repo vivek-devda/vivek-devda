@@ -10,7 +10,7 @@ I'm an AI/ML student who enjoys building end-to-end systems — from automation 
 
 ## 🚀 Projects
 
-### 🎬 AI Video Generation Automation Pipeline
+### 🎬 AI Video Automation Pipeline n8n
 
 A fully automated pipeline that generates short videos using AI with minimal manual work.
 
