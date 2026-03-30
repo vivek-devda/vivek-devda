@@ -1,106 +1,191 @@
-# Hey, I'm Vivek Devda 👋
+# 🎬 AI Video Generation Pipeline
 
-AI/ML engineering student building Python automation pipelines and NLP tools.
+This project is a custom-built AI pipeline that converts a simple user idea into a short video with visuals, captions, and background music.
 
-B.Tech AIML • 3rd Year • Interested in building real-world AI systems and understanding system architecture.
 
-I'm an AI/ML student who enjoys building end-to-end systems — from automation pipelines to NLP tools. I like experimenting with AI tools and integrating them into practical workflows that solve real problems.
+## 🎥 Demo
 
----
+![Demo](assets/demo.gif)
 
-## 🚀 Projects
 
-### 🎬 AI Video Automation Pipeline n8n
+**Example Input:**
+"AI in healthcare"
 
-A fully automated pipeline that generates short videos using AI with minimal manual work.
-
-Architecture:
-Webhook → AI prompt generation → image generation → video assembly
-
-**Key components**
-
-* Orchestrated using **n8n** workflow automation
-* **Flask webhook server** for backend communication
-* AI APIs used for idea and prompt generation
-* **MoviePy** for automated video creation
-
-📹 Demo video included in the repository.
+**Output:**
+A short multi-scene video with captions, transitions, and music.
 
 ---
 
-### 🤖 NLP Offline Chatbot
 
-A lightweight chatbot that runs completely offline using simple NLP techniques.
+## ⚡ What This Does
 
-**Key features**
+Input:
+"AI in healthcare"
 
-* Built using **Python, fuzzy string matching, and JSON intent system**
-* Text preprocessing and intent matching
-* No external API dependencies
-* Designed to work in constrained environments
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-
-* Python
-
-**AI / ML**
-
-* Natural Language Processing (NLP)
-* Prompt Engineering
-* OpenRouter API
-* HuggingFace (learning)
-
-**Backend**
-
-* Flask
-* REST APIs
-* Webhooks
-
-**Automation**
-
-* n8n
-* ngrok
-
-**Media Processing**
-
-* MoviePy
-
-**Tools**
-
-* Git
-* GitHub
-* JSON
-* pip
+**Output:**
+- Structured story-based script
+- Scene-wise captions
+- Visual sequence (manual / API-ready)
+- Final compiled video (MP4)
 
 ---
 
-## 📜 Certifications
+## 🚀 Features
 
-* NPTEL — Python for Data Science
-* NPTEL — Data Analytics with Python
+- Takes a user topic as input
+- Generates structured prompts (story-based)
+- Supports manual or API-based image input
+- Adds captions to each scene
+- Combines images into a video with transitions and background music
+- Designed for automation workflows
 
----
-
-## 🌍 Open To
-
-Remote internships in:
-
-* AI / ML Engineering
-* Python Backend Development
-* Automation Systems
-* Applied NLP
-
-I enjoy working on real-world engineering problems where code is used in production rather than only academic exercises.
 
 ---
 
-## 📬 Let's Connect
+## 🧠 How it works
 
-LinkedIn
-GitHub
+```
+User Input (Topic)
+        ↓
+Prompt Generator (structured narrative)
+        ↓
+Image Source (manual / API-ready)
+        ↓
+Caption Overlay (PIL)
+        ↓
+Video Builder (MoviePy)
+        ↓
+Final Video Output
+```
 
-Currently looking for **remote internship opportunities** — feel free to reach out.
+---
+
+
+## 📌 Example
+
+Input:
+
+```
+AI in healthcare
+```
+
+## 🌐 Flask API (Backend Simulation)
+
+This project includes a Flask API layer to simulate how the pipeline can be deployed as a backend service.
+
+**Endpoint:**
+POST /generate
+
+**Example Request:**
+```json
+{
+        "topic": "AI in healthcare"
+}
+```
+
+**Response:**
+```json
+{
+  "status": "success",
+  "output": "outputs/final_video.mp4"
+}
+```
+## 📊 Results
+
+- Generated 20+ test videos
+- Avg generation time: ~15–30 seconds
+- Supports multi-scene narrative structure
+- Handles missing images with fallback logic
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- MoviePy (video processing)
+- Pillow / PIL (image + captions)
+- Requests (API-ready integration)
+- Flask (API layer)
+
+---
+
+- 🎬 Format: MP4
+- ⏱ Duration: ~30–60 seconds
+- 🎞 Scenes: 4–6
+- 📁 Output: `outputs/final_video.mp4`
+
+
+
+## ⚙️ Setup
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-video-generation-pipeline.git
+cd ai-video-generation-pipeline
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run
+
+```bash
+python main.py
+
+Then enter:
+
+* Topic (e.g. "AI in healthcare")
+* Mode: manual / api
+
+---
+
+## 🎯 Why this project?
+
+This project demonstrates how real-world AI systems are built using pipelines that combine multiple components like prompting, media generation, and automation.
+
+It reflects practical backend system design used in content generation tools.
+
+## 🧠 System Design Highlights
+
+- Modular pipeline architecture
+- Separation of concerns (prompt → image → video)
+- Extensible for API integrations (image generation, TTS)
+- Designed for both manual and automated workflows
+
+
+## ⚠️ Important Note
+
+Currently, images are manually sourced for demonstration purposes.
+
+The pipeline is designed to support full API-based image generation, making it easily extendable into a fully automated system.
+
+
+## 📈 Future Improvements
+
+- Full API-based image generation
+- Text-to-speech (voiceover)
+- Improved transitions and animations
+- CLI support (--topic, --mode)
+- Web interface for non-technical users
+
+
+💡 Motivation
+
+This project started as an experiment with no-code tools (n8n). It helped me quickly prototype the idea, but I realized I wanted more control and flexibility.
+
+So I rebuilt the entire pipeline from scratch in Python, making it modular and extensible.
+
+
+📬 Feedback
+
+
+Open to suggestions and improvements!
+
+Open to suggestions, improvements, and collaboration!
+
+
+👨‍💻 Author
+
+Vivek Devda
+B.Tech Artificial Intelligence & Machine Learning
+
+GitHub: https://github.com/vivek-devda
