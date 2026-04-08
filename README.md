@@ -43,5 +43,5 @@ An end-to-end system that converts a simple text input into a structured, multi-
 ## 📬 Contact
 
 - GitHub: https://github.com/vivek-devda
-- LinkedIn: (add your link)
-- Email: (optional)
+- LinkedIn: https://www.linkedin.com/in/vivek-devda-6a5b8b28b/
+- Email: vivek.devda.ml@gmail.com
