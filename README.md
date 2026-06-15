@@ -1,47 +1,67 @@
 ## 👋 Hi, I'm Vivek Devda
 
-I build AI-powered backend systems and modular pipelines for automation and content generation.
+I build AI-powered backend systems, automation pipelines, and local-first applications using Python.
 
-Currently focused on:
-- AI pipeline design (prompt → processing → output systems)
-- Backend APIs (Flask)
-- Real-world AI applications (not just models)
+I'm passionate about designing practical AI products that solve real-world problems through backend engineering, NLP, and workflow automation.
+
+### Currently focused on:
+
+* AI workflow orchestration and modular pipeline design
+* Backend APIs and automation using Flask
+* NLP and local-first AI applications
+* Building production-inspired AI systems beyond simple API wrappers
 
 ---
 
 ## 🚀 Featured Project
 
-### 🎬 AI Video Generation Pipeline
-An end-to-end system that converts a simple text input into a structured, multi-scene video.
+### 🧑‍💼 AI-Powered Hiring Assistant
 
-- Modular pipeline architecture (prompt → image → video)
-- Handles fallback and partial failures
-- Flask API for backend simulation
-- Designed like a real production AI system
+A deployed web application that streamlines candidate evaluation through AI-assisted workflows.
 
-👉 https://github.com/vivek-devda/ai-video-generation-pipeline
+**Key capabilities:**
+
+* Automated resume screening
+* Candidate ranking and comparison
+* Skill-gap analysis
+* Recruiter outreach generation
+* Multi-resume PDF analysis
+
+**Tech Stack:** Python, Flask, NLP, Scikit-Learn, SQLite
+
+👉 Repository: https://github.com/vivek-devda/offline-ai-hiring-assistant
+
+---
+
+## 🌟 Open Source Contribution
+
+### DevBoard (Merged PR #32)
+
+Investigated and resolved a task-order persistence issue in a MERN-based Kanban application by implementing column-wide task reindexing and order persistence.
+
+👉 Pull Request: [Add your PR link here]
 
 ---
 
 ## 🧠 What I Bring
 
-- I can design and build modular AI pipelines from scratch
-- I focus on system-level thinking, not just models
-- I can quickly prototype and iterate on real-world ideas
-- Comfortable working independently on backend + AI integration
+* Experience building practical AI systems from concept to deployment
+* Strong interest in backend engineering, automation, and NLP
+* System-level thinking focused on reliability and modular design
+* Ability to learn independently and contribute to existing codebases
 
 ---
 
 ## 🎯 Looking For
 
-- Remote AI / Backend internships (global startups)
-- Opportunities to work on real-world AI products
-- Small teams where I can contribute and learn fast
+* AI, backend, and full-stack internship opportunities
+* Opportunities to contribute to real-world products
+* Global engineering environments where I can learn and grow
 
 ---
 
 ## 📬 Contact
 
-- GitHub: https://github.com/vivek-devda
-- LinkedIn: https://www.linkedin.com/in/vivek-devda-6a5b8b28b/
-- Email: vivek.devda.ml@gmail.com
+* GitHub: https://github.com/vivek-devda
+* LinkedIn: https://www.linkedin.com/in/vivek-devda-6a5b8b28b/
+* Email: [vivek.devda.ml@gmail.com](mailto:vivek.devda.ml@gmail.com)
